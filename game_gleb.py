@@ -1,3 +1,0 @@
-# Yo brat
-
-# hip hop
