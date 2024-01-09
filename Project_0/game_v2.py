@@ -1,4 +1,4 @@
-"""Игра угадай число
+""" Игра угадай число
 Компьютер сам загадывает и сам угадывает число
 """
 
@@ -25,7 +25,7 @@ def random_predict(number: int = 1) -> int:
 
 
 def score_game(random_predict) -> int:
-    """За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
+    """ За какое количство попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
         random_predict ([type]): функция угадывания
@@ -45,6 +45,6 @@ def score_game(random_predict) -> int:
     return score
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     # RUN
-    score_game(random_predict)
+score_game(random_predict)
